@@ -2,9 +2,13 @@
 
 El siguiente repositorio contiene tres carpetas con los demos realizados para la presentación práctica acerca del **Paradigma Orientado a Aspectos** para la materia de Lenguajes de Programación 2019-I en la Universidad Nacional.
 
+Estructura del repositorio:
+
 `
 /aspectj
+
 /aspectj-figures
+
 /SpringAOPTutorial
 `
 
