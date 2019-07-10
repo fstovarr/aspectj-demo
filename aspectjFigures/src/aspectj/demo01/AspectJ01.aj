@@ -7,7 +7,8 @@ public aspect AspectJ01 {
     // only within the class ClassTest01
     // This ClassTest01 and AspectJ same package,
     // so can be ignored package in within(..).
-    pointcut callSetX(): call(void  figures.Point.setX(int)) && within (aspectj.demo01.ClassTest01) ;
+    pointcut callSetX():
+            call(void figures.Point.setX(int)) && within(aspectj.demo01.ClassTest01) ;
 
     // Advice
     before(): callSetX()  {

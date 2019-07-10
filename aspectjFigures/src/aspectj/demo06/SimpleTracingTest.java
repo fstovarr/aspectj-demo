@@ -3,7 +3,6 @@ package aspectj.demo06;
 import figures.Point;
 
 public class SimpleTracingTest {
-
     private static void testMethod1() {
         Point point = new Point(100, 100);
         point.setX(100);
@@ -19,10 +18,8 @@ public class SimpleTracingTest {
     }
 
     public static void main(String[] args) {
-
         testMethod1();
 
         testMethod2();
     }
-
 }

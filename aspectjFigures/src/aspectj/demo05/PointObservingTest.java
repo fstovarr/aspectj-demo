@@ -5,7 +5,6 @@ import figures.Point;
 public class PointObservingTest {
 
     public static void main(String[] args) {
-
         Point point1 = new Point(100, 100);
 
         // First move

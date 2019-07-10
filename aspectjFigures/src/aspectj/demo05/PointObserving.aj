@@ -1,9 +1,9 @@
 package aspectj.demo05;
 
+import figures.Point;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import figures.Point;
 
 public aspect PointObserving {
 

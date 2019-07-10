@@ -1,7 +1,7 @@
 package figures;
 
 import java.awt.*;
-import java.awt.geom.*;
+import java.awt.geom.Ellipse2D;
 
 public class Point extends ShapeFigureElement {
     private int _x;
@@ -39,9 +39,13 @@ public class Point extends ShapeFigureElement {
         return "Point(" + _x + ", " + _y + ")";
     }
 
-    /** The height of displayed {@link Point}s. */
+    /**
+     * The height of displayed {@link Point}s.
+     */
     private final static int HEIGHT = 10;
-    /** The width of displayed {@link Point}s. -- same as {@link HEIGHT}. */
+    /**
+     * The width of displayed {@link Point}s. -- same as {@link HEIGHT}.
+     */
     private final static int WIDTH = Point.HEIGHT;
 
     @Override

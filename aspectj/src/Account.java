@@ -1,8 +1,5 @@
-import java.util.Base64;
-
 public class Account {
     int balance = 10;
-
 
     public boolean withdraw(int amount) {
         if (balance < amount) {
