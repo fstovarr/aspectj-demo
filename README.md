@@ -4,13 +4,18 @@ El siguiente repositorio contiene tres carpetas con los demos realizados para la
 
 Estructura del repositorio:
 
-`
-/aspectj
-
-/aspectj-figures
-
-/SpringAOPTutorial
-`
+```
+aspectj-demo
+│   README.md
+|
+└───aspectj
+│   README.md
+│
+└───aspectj-figures
+│   README.md
+│
+└───SpringAOPTutorial
+```
 
 Creadores:
 - Fabio Steven Tovar Ramos
