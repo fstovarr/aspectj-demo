@@ -8,13 +8,13 @@ Estructura del repositorio:
 aspectj-demo
 │   README.md
 |
-└───aspectj
+└───aspectj # Varios demos básicos
 │   README.md
 │
-└───aspectj-figures
+└───aspectj-figures # Demo tomado de la documentación oficial
 │   README.md
 │
-└───SpringAOPTutorial
+└───SpringAOPTutorial # Tutorial propio de Spring AOP
 ```
 
 Creadores:
